@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
-
+@keyframes animacion{
+	0%{
+		background-position: 5% 3%;
+	}
+	50%{
+		background-position: 96% 0%;
+	}
+	100%{
+		background-position: 5% 0%;
+	}
+}
 * {
   margin: 0;
   padding: 0;
@@ -497,3 +507,10 @@ nav > a{
     .contenedor-footer {
       width: 250px; }
      }
+.corazon{
+  transition: all 2000ms;
+}
+.corazon:hover{
+  transform: scale(.5);
+}
+
