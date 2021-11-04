@@ -7,45 +7,7 @@
 }
 
 body {
-  font-family: 'open sans';
-}
-.form {
-  width: 600px;
-  margin: auto;
-  background:hsla(317, 18%, 40%, 0.664);
-  padding: 30px 30px;
-  box-sizing: border-box;
-  margin-top: 20px;
-  border-radius: 7px;
-}
-.tituloform {
-  color:rgb(207, 41, 152);
-  text-align: center;
-  margin: 0;
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-input, textarea {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 7px;
-  box-sizing: border-box;
-  border: none;
-  font-size: 17px;
-}
-#botonform{
-  background:rgb(221, 90, 160);
-  color: white;
- }
-
-#botonform:hover{
-  cursor:pointer;
-}
-
-@media all and (max-width: 480px) {
-  .form{
-      width: 250px;
-  }
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .contenedor {
@@ -314,6 +276,47 @@ main .sobre-nosotros{
   margin-bottom: 40px;
 }
 
+/* Formulario */
+.form {
+  width: 600px;
+  margin: auto;
+  background:hsla(317, 18%, 40%, 0.664);
+  padding: 30px 30px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.tituloform {
+  color:rgb(207, 41, 152);
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  border: none;
+  font-size: 17px;
+}
+
+#botonform{
+  background:rgb(221, 90, 160);
+  color: white;
+ }
+
+#botonform:hover{
+  cursor:pointer;
+}
+
+@media all and (max-width: 480px) {
+  .form{
+      width: 250px;
+  }
+}
 /* footer */
 
 footer{
@@ -407,10 +410,6 @@ footer{
 .servicio-ind{
       width: 100%;
       text-align: center;
-}
-
-.servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
-      margin-bottom: 60px;
 }
 
 .servicio-ind img{
