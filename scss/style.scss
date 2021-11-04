@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
-@keyframes animacion{
-	0%{
-		background-position: 5% 3%;
-	}
-	50%{
-		background-position: 96% 0%;
-	}
-	100%{
-		background-position: 5% 0%;
-	}
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +9,7 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
 }
+
 
 .contenedor {
   padding: 60px 0;
@@ -126,7 +117,7 @@ main .sobre-nosotros{
 
 .sobre-nosotros .contenido-textos{
   width: 48%;
-  margin-top: 44px;
+  margin-top: 97px;
   font-size: 15px;
 }
 
@@ -143,7 +134,7 @@ main .sobre-nosotros{
   text-align: center;
   width: 40px;
   height: 40px;
-  padding: 2px;
+  padding: 8px;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
   margin-right: 5px;
 }
@@ -507,10 +498,5 @@ nav > a{
     .contenedor-footer {
       width: 250px; }
      }
-.corazon{
-  transition: all 2000ms;
-}
-.corazon:hover{
-  transform: scale(.5);
-}
+
 
