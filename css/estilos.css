@@ -312,7 +312,7 @@ footer {
   /* Galeria */
   .imagen-port {
     width: 44%; }
-  /* Clientes */
+  /* Clientas */
   .cards {
     flex-direction: column;
     justify-content: center;
@@ -343,7 +343,7 @@ footer {
     font-size: 35px; }
   .textos-header h2 {
     font-size: 20px; }
-  /* ABOUT US */
+  /* Sobre cuerpo y alma */
   .imagen-about-us {
     margin-bottom: 60px;
     width: 99%; }
@@ -352,7 +352,7 @@ footer {
   /* Galeria */
   .imagen-port {
     width: 95%; }
-  /* Clients */
+  /* Clientas */
   .cards .card {
     height: 450px;
     display: flex;
