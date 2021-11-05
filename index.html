@@ -8,6 +8,8 @@
     <meta name="keywords" content="zapatillas, remeras, animalprint, ojotas, cuerpo, alma">
     <meta name="description" content="Tienda de calzado e indumentaria de EleganteSports">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
  </head>
 <body>
     <header>
@@ -29,14 +31,14 @@
     </header>
     <main>
         <section class="contenedor sobre-nosotros">
-            <img src="img/logocuerpoyalma.jpg" alt="logo" class="logoCabeceraDos">
+            <img src="img/logocuerpoyalma.jpg" alt="logo" class="logoCabeceraDos animate__animated animate__flipInX">
             <h1 class="titulo">CONVERTITE EN LA DIOSA QUE VOS TANTO QUERÉS</h1>
             <h2 class="titulo">Nuestra rueda de colores</h2>
             <p class="">Somos una empresa dedicada a la moda. Te ofrecemos las últimas tendencias en calzado para complementar tu
                 TOTAL LOOK.</p>
             <div class="contenedor-sobre-nosotros">
                 <img src="img/13.jpg" alt="circulares" class="imagen-about-us">
-                <div class="contenido-textos">
+                <div class="contenido-textos animate__animated animate__lightSpeedInRight">
                     <h3><span>1</span>AMAMOS LOS COLORES</h3>
                     <p>Si queres estar a la vanguardia de la moda, HOY te mostramos nuestra paleta de colores que màs
                         copan en el mercado. Los podés combinar con un Look Total Black. Usálas para tu outfit diario o
@@ -122,5 +124,9 @@
                 AQUÍ</a>
         </h2>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().INIT();
+    </script>
 </body>
 </html>
